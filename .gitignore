@@ -1,0 +1,9 @@
+*.pyc
+*.swp
+*DS_*
+*local_settings.py*
+*build/
+*dist/
+*.egg-info*
+*db_data.sql*
+*.mp4
