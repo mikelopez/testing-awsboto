@@ -14,6 +14,8 @@ class TestAWSConnection(unittest.TestCase):
         s3 = boto.connect_s3()
         self.assertTrue(s3)
         printobj(s3)
+        
+        buckets_list = s3.get_all_buckets()
 
 
 if __name__ == '__main__':
